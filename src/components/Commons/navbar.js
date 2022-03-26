@@ -24,7 +24,7 @@ const NavBar= () =>{
         "
       >
        <div> 
-          <a href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <a href="/Portfolio" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
