@@ -21,10 +21,10 @@ function App() {
     <NavBar />
     <Routes>
     <Route path="/Portfolio" element={<BodyMain />} />
-    <Route path="/contact" element={<Contact />} />
-    <Route path="/journey" element={<Journey />} />
-    <Route path="/skills" element={<Skills />} />
-    <Route path="/projects" element={<GetLatestRepos />} />
+    <Route path="/Portfolio/contact" element={<Contact />} />
+    <Route path="/Portfolio/journey" element={<Journey />} />
+    <Route path="/Portfolio/skills" element={<Skills />} />
+    <Route path="/Portfolio/projects" element={<GetLatestRepos />} />
     <Route
       path="*"
       element={

@@ -97,19 +97,19 @@ const NavBar= () =>{
               md:pt-0"
           >
             <li>
-              <Link className="md:p-4 py-2 block hover:text-purple-400" to="/">Home</Link>
+              <Link className="md:p-4 py-2 block hover:text-purple-400" to="/Portfolio">Home</Link>
             </li>
             <li>
-              <Link className="md:p-4 py-2 block hover:text-purple-400" to="/projects">Projects</Link>
+              <Link className="md:p-4 py-2 block hover:text-purple-400" to="/Portfolio/projects">Projects</Link>
             </li>
             <li>
-              <Link className="md:p-4 py-2 block hover:text-purple-400" to="/skills">Skills</Link>
+              <Link className="md:p-4 py-2 block hover:text-purple-400" to="/Portfolio/skills">Skills</Link>
             </li>
             <li>
-              <Link className="md:p-4 py-2 block hover:text-purple-400" to="/journey">MyJourney</Link>
+              <Link className="md:p-4 py-2 block hover:text-purple-400" to="/Portfolio/journey">MyJourney</Link>
             </li>
             <li>
-              <Link className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" to="/contact">Contact Me</Link>
+              <Link className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" to="/Portfolio/contact">Contact Me</Link>
             </li>
           </ul>
         </div>
